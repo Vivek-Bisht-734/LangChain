@@ -15,13 +15,19 @@ This bot:
 ```bash
 git clone https://github.com/<your-username>/langchain.git
 cd langchain/professor-bot
+```
 ---
-#### 2️⃣ Install Requirements
-pip install -r requirements.txt
----
-#### 3️⃣ Run the Bot
-python ai_tutor.py
 
+#### 2️⃣ Install Requirements
+```bash
+pip install -r requirements.txt
+```
+---
+
+#### 3️⃣ Run the Bot
+```bash
+python ai_tutor.py
+```
 ---
 
 ### Requirements

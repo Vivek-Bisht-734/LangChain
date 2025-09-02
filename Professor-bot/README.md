@@ -1,11 +1,30 @@
 # 🤖 AI Tutor (LangChain + Ollama)
 
-This project is an interactive AI-powered tutor that:
-- Explains ML/AI topics in a simple, beginner-friendly way
-- Provides tips for learners
-- Shares short Python code examples
-- Remembers context using Conversation Memory
+An interactive AI-powered tutor built with **LangChain** and **Ollama**.  
+This bot:
+- Explains **ML/AI concepts** in a beginner-friendly way
+- Gives **practical tips** for learners
+- Shares **short Python code examples**
+- Remembers context using **ConversationBufferMemory**
 
-## How to Run
+---
+
+### 🚀 Getting Started
+
+#### 1️⃣ Clone the Repo
 ```bash
+git clone https://github.com/<your-username>/langchain.git
+cd langchain/professor-bot
+---
+#### 2️⃣ Install Requirements
+pip install -r requirements.txt
+---
+#### 3️⃣ Run the Bot
 python ai_tutor.py
+
+---
+
+### Requirements
+- Python 3.9+
+- LangChain
+- Ollama (with Llama3.1:8b model installed)
